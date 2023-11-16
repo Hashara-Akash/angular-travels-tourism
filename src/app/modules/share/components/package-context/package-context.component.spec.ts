@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainSliderComponent } from './main-slider.component';
+import { PackageContextComponent } from './package-context.component';
 
-describe('MainSliderComponent', () => {
-  let component: MainSliderComponent;
-  let fixture: ComponentFixture<MainSliderComponent>;
+describe('PackageContextComponent', () => {
+  let component: PackageContextComponent;
+  let fixture: ComponentFixture<PackageContextComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MainSliderComponent ]
+      declarations: [ PackageContextComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MainSliderComponent);
+    fixture = TestBed.createComponent(PackageContextComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
