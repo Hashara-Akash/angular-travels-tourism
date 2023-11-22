@@ -12,4 +12,13 @@ export class MainHeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleMenu(): void {
+    const menuItems = document.querySelector('.menu-items');
+    // @ts-ignore
+    menuItems.classList.toggle('show');
+  }
+
+
+  isMenuOpen: any;
+
 }
