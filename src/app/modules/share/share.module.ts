@@ -6,6 +6,7 @@ import { ShareComponent } from './share.component';
 import { MainFooterComponent } from './components/main-footer/main-footer.component';
 import { MainHeaderComponent } from './components/main-header/main-header.component';
 import { PackageContextComponent } from './components/package-context/package-context.component';
+import {MatIconModule} from "@angular/material/icon";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PackageContextComponent } from './components/package-context/package-co
   ],
     imports: [
         CommonModule,
-        ShareRoutingModule
+        ShareRoutingModule,
+        MatIconModule
     ]
 })
 export class ShareModule { }

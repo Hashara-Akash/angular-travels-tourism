@@ -1,1 +1,42 @@
-<p>main-header works!</p>
+<div class="header">
+  <div class="header-outer">
+    <a href="#" class="header-logo">
+      Venushi
+      <span class="logo-title"> Tours & Travels</span>
+    </a>
+  </div>
+
+  <div class="hamburger-toggle" (click)="toggleMenu()">
+    <mat-icon class="hamburger-button" id="hamburger">{{ isMenuOpen ? "close" : "menu" }} </mat-icon>
+  </div>
+
+  <div class="menu-items">
+    <div class="hamburger-toggle" (click)="toggleMenu()">
+      <mat-icon class="hamburger-close">close</mat-icon>
+    </div>
+
+    <div class="inner-img">
+      <img src="https://i.pinimg.com/564x/76/16/10/7616107fba7b5327cf49a395bd008327.jpg"
+           width="100%" height="100%" alt="img">
+    </div>
+
+    <div class="header-inner">
+      <a href="#" class="header-logo-inner">
+        Venushi
+        <span class="logo-title-inner">Tours & Travels</span>
+      </a>
+    </div>
+
+    <div class="menu-inner">
+      <ol class="menu-list">
+        <li><a class="menu-title" href="#"><small>01</small><span class="active-link">Home</span></a></li>
+        <li><a class="menu-title" href="#"><small>02</small>About Us</a></li>
+        <li><a class="menu-title" href="#"><small>03</small>Services</a></li>
+        <li><a class="menu-title" href="#"><small>04</small>Contact Us</a></li>
+        <li><a class="menu-title" href="#"><small>05</small>Packages</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+
